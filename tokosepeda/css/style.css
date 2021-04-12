@@ -1,0 +1,88 @@
+
+body {
+  padding-top: 56px;
+}
+header.masthead {
+  padding-top: 10rem;
+  padding-bottom: calc(10rem - 4.5rem);
+  background: linear-gradient(to bottom, rgba(192, 176, 176, 0.8) 0%, rgba(170, 133, 107, 0.8) 100%), url("../gambar/11.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-size: cover;
+}
+header.masthead h1 {
+  font-size: 2.25rem;
+}
+@media (min-width: 992px) {
+  header.masthead {
+    height: 100vh;
+    min-height: 40rem;
+    padding-top: 4.5rem;
+    padding-bottom: 0;
+  }
+  header.masthead p {
+    font-size: 1.15rem;
+  }
+  header.masthead h1 {
+    font-size: 3rem;
+  }
+}
+@media (min-width: 1200px) {
+  header.masthead h1 {
+    font-size: 3.5rem;
+  }
+}
+@media(min-width:321px) and (max-width:425px){
+  section#box-profile:{
+    width: 90%;
+    height: 630px;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-top: 30px;
+  }
+.menu-mobile{
+  top: 20px;
+  right: 10%;
+  display: inline-block;
+}
+nav ul{
+  display: none;
+  right: 0;
+  width: 100%;
+  text-align: center;
+  top: 43px;
+  z-index: 99;
+  background: #fff;
+}
+nav ul li{
+  float: unset;
+  margin: 0;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+.description{
+  padding-left: 0px;
+  width: 10px;
+  text-align: center;
+  margin-left: 0;
+  border: none;
+}
+.description .button{
+  margin-right: 10px;
+  margin-left: 10px;
+}
+.img-profile .photo{
+  left: 35px;
+  position: relative;
+}
+.information{
+  top: 75px;
+  margin-left: 25px;
+  font-size: 14px;
+}
+section#input-form{
+  margin-left: 5%;
+  margin-right: 5%;
+}
+}
